@@ -1,0 +1,3 @@
+rootProject.name='Android In-App Billing v3'
+include ':app'
+include ':inappbillingv3library'
