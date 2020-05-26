@@ -5,7 +5,7 @@ To get this Git project into your build:
 
 Step 1. Add the JitPack repository to your build file
 
-    gradle integration
+gradle integration
 
 Add it in your root build.gradle at the end of repositories:
 
@@ -23,8 +23,7 @@ Step 2. Add the dependency
 	}
 
 
-    maven integration
-    
+maven integration
     
 	<repositories>
 		<repository>
@@ -42,18 +41,12 @@ Step 2. Add the dependency
 	</dependency>
 
 
-
-    sbt  integration
-    
-    
-
+sbt  integration
+   
 Add it in your build.sbt at the end of resolvers:
 
- 
     resolvers += "jitpack" at "https://jitpack.io"
         
-    
-
 Step 2. Add the dependency
 
 	
@@ -61,22 +54,14 @@ Step 2. Add the dependency
 
 
     
+leiningen  integration
     
-
-    leiningen  integration
-    
-    
-
 Add it in your project.clj at the end of repositories:
 
- 
     :repositories [["jitpack" "https://jitpack.io"]]
         
-    
-
 Step 2. Add the dependency
 
-	
 	:dependencies [[com.github.fruzelee/Android-In-App-Billing-v3-Library "1.0"]]	
 
 
